@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Info</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="todo-container">
+    <div class="header">
+      <img src="./cloudy.png" alt="Weather Icon" style="width: 50px;">
+      <h1>Weather Info</h1>
+    </div>
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search city...">
+      <button id="search">Search</button>
+    </div>
+
+    <!-- Weather Info Section -->
+    <div id="weather-box">
+      <div class="weather-item">
+        <label for="city-name">City Name:</label>
+        <h2 id="city-name">Delhi</h2>
+      </div>
+
+      <div class="weather-item">
+        <label for="temperature">Temperature:</label>
+        <p id="temperature">37°C</p>
+      </div>
+
+      <div class="weather-item">
+        <label for="description">Description:</label>
+        <p id="description">Delhi weather is hot</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
